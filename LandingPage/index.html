@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+        <title>Pagina de Apresentação</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="eu.jfif" alt="Eu">
+        </div>
+        <ul>
+            <li><a href="#">Pagina Principal</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Fale Comigo</a></li>
+    </ul>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+
+        <h1>Minha Pagina de Apresentação</h1>
+
+        <p>Caio Augusto Rafael Oliveira Santana, 25 anos, Programador, Solucionador de Problemas, Formação Superior em Gestão de Técnologia da Informação, em busca de Experiência e Novos Desafios.</p>
+
+        <button class="cta-btn" id="open">Inscrever no Feed</button>
+    </header>
+
+    <div class="container">
+        <h2>Sobre o que é essa pagina de apresentação?</h2>
+        <p>Nessa Página, eu me Apresento e me coloco a disposição para Novas Oportunidades</p>
+        <p>Sou Programador, tenho experiência com suporte técnico empresarial, com ampla vivência em TI e no ambiente corporativo, procuro sempre me desenvolver e aprender coisas novas, Acredito que enquanto for Proativo e buscar resolver os problemas ao invés de apenas reclamar deles, posso crescer profissionalmente.</p>
+        
+        <h2>Diga me Mais</h2>
+
+        <p>Após ser contratado para atuar como suporte, tenho empregado inovações em diversos departamentos, aumentando a produtividade e diminuindo riscos automatizando tarefas corriqueiras através de ferramentas de desenvolvimento low-code como Powerapps e PowerAutomation e também por realizar e acompanhar projetos para transferência de dados de ferramentas offline sem backup nenhum para a Nuvem com aumento de performance e redução de custos.</p>
+
+        <h2>Realizações</h2>
+        <ul>
+            <li>Redução de 70% da instatisfação dos clientes em geral com relação a problemas de TI</li>
+            <li>Soluções Criativas e inusitadas para diversas áreas que elevaram a produtividade</li>
+            <li>Palestras e treinamentos para melhorar Performance e utilizar ferramentas, não somente no Brasil mas na Argentina também.</li>
+        </ul>
+        <p>Ainda não tenho muita experiência como programador, mas amo esta profissão e acredito que estou pronto para ter o meu começo neste departamento, sei que posso contribuir muito para sua empresa e amaria ter essa oportunidade, não somente para aprender mas também para ajudar o maior número possível de pessoas.</p>
+        <p> esse Site é apenas um experimento para demonstrar que posso aprender e desenvolver o que for necessário, e se eu não souber, vou atrás da informação, de treinamentos e rapidamente faço o que for necessário. </p>
+
+        <h2>Contato</h2>
+            <ul>
+                <li>Telefone: 16-99279-5759</li>
+                <li>Email: caros_rafael@hotmail.com </li>
+                <li>Linkedin: https://www.linkedin.com/in/caiosantana/ </li>
+            </ul>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Cadastre-se</h3>
+            </div>
+            <div class="modal-content">
+                <p>Cadastre-se para ter atualizações</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" placeholder="Coloque o Nome" class="form-input"/>
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Coloque o E-mail" class="form-input"/>
+                    </div>
+                    <div>
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" placeholder="Coloque a Senha" class="form-input"/>
+                    </div>
+                    <div>
+                        <label for="password2">Confirme a Senha</label>
+                        <input type="password" id="password2" placeholder="Confirme a Senha" class="form-input"/>
+                    </div>
+                    <input type="submit" value="Enviar" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
